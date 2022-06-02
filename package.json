@@ -1,0 +1,20 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy": "yarn compile && rm -f ./build/*.json && truffle migrate",
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1",
+    "chaijs": "^0.0.1"
+  }
+}
